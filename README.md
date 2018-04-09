@@ -3,6 +3,7 @@ A website to display news from NYTimes
 
 ## Demo
 
+View online : http://162.212.157.167:5200
 
 ## Setup
 
