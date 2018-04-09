@@ -2,7 +2,7 @@ const {createConfig} = require('./lib/wp-common');
 
 module.exports = createConfig({
   devServer: {
-    port: 8080,
+    port: 4200,
     hot: true,
   },
   css: {
