@@ -1,0 +1,15 @@
+@import '../../variables';
+
+@media (min-width: $desktop-min-width) {
+  .page-detail {
+    padding: 20px;
+    min-height: auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.07);
+
+    .modal-detail {
+      .close-btn {
+        margin: 10px;
+      }
+    }
+  }
+}

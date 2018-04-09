@@ -1,0 +1,22 @@
+@import './variables';
+
+// Desktop
+@media (min-width: $desktop-min-width) {
+  .container {
+    max-width: $container-width;
+    margin: 0 auto;
+  }
+}
+
+.clearfix:after {
+  clear: both;
+  content: '.';
+  display: block;
+  width: 0;
+  height: 0;
+}
+
+.hand {
+  cursor: hand;
+  cursor: pointer;
+}

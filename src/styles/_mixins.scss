@@ -1,0 +1,10 @@
+@mixin hover-active() {
+  &:active {
+    @content;
+  }
+  @media (min-width: $desktop-min-width) {
+    &:hover {
+      @content;
+    }
+  }
+}

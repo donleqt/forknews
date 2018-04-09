@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test ArticleItem Should render article with right snapshot 1`] = `
+<div
+  className="article-item"
+  onClick={[Function]}
+>
+  <div
+    className="article-thumbnail"
+  >
+    <img
+      className="article-img"
+      src="https://static01.nyt.com/images/2018/02/25/travel/25bites/25bites-articleLarge.jpg"
+    />
+  </div>
+  <div
+    className="article-content"
+  >
+    <div
+      className="snippet"
+    >
+      At his new restaurant Folklore, the chef Damian D’Silva continues to celebrate so-called heritage food — and is perhaps starting a few traditions of his own.
+    </div>
+    <div
+      className="source"
+    >
+      The New York Times
+    </div>
+    <div
+      className="date"
+    >
+      February 24
+    </div>
+  </div>
+</div>
+`;

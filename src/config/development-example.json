@@ -1,0 +1,5 @@
+{
+  "host": "http://localhost:3002",
+  "api": "http://api.nytimes.com",
+  "reduxLog": false
+}

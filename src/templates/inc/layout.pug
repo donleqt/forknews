@@ -1,0 +1,17 @@
+include mixin
+block declare
+    // Child add mixin here
+doctype html
+html(lang='vi')
+    head
+        title=title
+        meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no')
+        link(rel='icon', href='/favicon.ico?v=2', type='image/x-icon')
+        +prepend()
+        script.
+          window.initData = "{{initData}}";
+    body
+        #root
+        #portal
+        +append()

@@ -1,0 +1,13 @@
+{
+  "apiKey": "02dd3a4551c14ad895131847eb4e93d7",
+  "urlAssets": "https://static01.nyt.com/",
+  "api": {
+    "nytimes": {
+      "articleSearch": "/articlesearch.json",
+      "articleDetail": ""
+    }
+  },
+  "routes": {
+    "home": "/"
+  }
+}

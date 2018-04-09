@@ -1,0 +1,7 @@
+{
+  "host": "http://localhost:3002",
+  "reduxLog": false,
+  "apiPath": {
+    "nytimes": "https://api.nytimes.com/svc/search/v2"
+  }
+}
