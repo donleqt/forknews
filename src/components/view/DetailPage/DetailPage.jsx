@@ -23,7 +23,9 @@ export class DetailPage extends React.PureComponent {
           <div className="modal-detail">
             <span className="close-btn hand" onClick={this.closeModal}>Close</span>
             <div className="clearfix"/>
-            <ArticleItem data={this.props.data}/>
+            <div className="container">
+              <ArticleItem data={this.props.data}/>
+            </div>
           </div>
         </div>
     );
